@@ -1,0 +1,76 @@
+<intersection name='1 by 1 intersection, with turns'>
+    <structure>
+        <lane_w>3</lane_w>
+        <lane_cnt_w_o>3</lane_cnt_w_o>
+        <lane_cnt_h_o>3</lane_cnt_h_o>
+        <lane_cnt_w_i>3</lane_cnt_w_i>
+        <lane_cnt_h_i>3</lane_cnt_h_i>
+    </structure>
+
+    <!-- Define symmetric. Directions in each case is symmetric. Horizontal : east/west same, Vertical : south/north same-->
+    <symmetry>
+        <horizontal>1</horizontal>
+        <vertical>1</vertical>
+    </symmetry>
+
+    <!-- Following is a array storing the destination information -->
+    <destination>
+        <!-- From south, if others are empty, then symmetric -->
+        <south>
+            <lane_0>
+                <left>1</left>
+                <straight>0</straight>
+                <right>0</right>
+            </lane_0>
+            <lane_1>
+                <left>0</left>
+                <straight>1</straight>
+                <right>0</right>
+            </lane_1>
+            <lane_2>
+                <left>0</left>
+                <straignt>1</straignt>
+                <right>0</right>
+            </lane_2>
+        </south>
+
+<!--        <east>-->
+<!--            <lane_0>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_0>-->
+<!--            <lane_1>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_1>-->
+<!--        </east>-->
+
+<!--        <north>-->
+<!--            <lane_0>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_0>-->
+<!--            <lane_1>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_1>-->
+<!--        </north>-->
+
+<!--        <south>-->
+<!--            <lane_0>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_0>-->
+<!--            <lane_1>-->
+<!--                <left>-1</left>-->
+<!--                <straight>-1</straight>-->
+<!--                <right>-1</right>-->
+<!--            </lane_1>-->
+<!--        </south>-->
+    </destination>
+</intersection>

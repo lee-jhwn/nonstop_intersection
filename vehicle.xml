@@ -1,0 +1,7 @@
+<vehicle>
+    <len>7</len>
+    <width>2.5</width>
+    <speed_s>50</speed_s>
+    <speed_l>50</speed_l>
+    <speed_r>50</speed_r>
+</vehicle>
